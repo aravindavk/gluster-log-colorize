@@ -23,7 +23,7 @@ How easily can you spot a error message from below log lines
 
 Compared to the screenshot below,
 
-    ![Gluster Log With Color](./gluster-log-with-color.png)
+![Gluster Log With Color](./gluster-log-with-color.png)
 
 ## Usage
 
