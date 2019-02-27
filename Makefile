@@ -1,4 +1,4 @@
 dev:
 	dmd app.d -of=gluster-log-colorize
 prod:
-	ldc2 -release -O app.d -of=gluster-log-colorize
+	ldmd2 -O -inline -release -version=StdLoggerDisableTrace app.d -of=gluster-log-colorize
