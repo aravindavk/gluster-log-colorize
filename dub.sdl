@@ -1,0 +1,8 @@
+name "gluster-log-colorize"
+description "A tool to colorize Gluster Log files"
+authors "Aravinda VK <mail@aravindavk.in>"
+copyright "Copyright © 2017-2019, Aravinda VK <mail@aravindavk.in>"
+license "Apache-2.0"
+
+dflags "-static" "-link-defaultlib-shared=false" platform="linux-ldc"
+lflags "-macosx_version_min" "10.7" "-lcrt1.o" platform="osx"

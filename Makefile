@@ -1,4 +1,9 @@
+help:
+	@echo "dev - Development Build"
+	@echo "archive - Archive the binary"
+
 dev:
-	dmd app.d -of=gluster-log-colorize
-prod:
-	ldmd2 -O -inline -release -version=StdLoggerDisableTrace app.d -of=gluster-log-colorize
+	dub build
+
+release:
+	./release.sh
