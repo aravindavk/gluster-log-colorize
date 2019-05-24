@@ -19,6 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   message ID)
 - Identifies Fields if structured logging is used.
 
-[Unreleased]: https://github.com/aravindavk/gluster-log-colorize/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/aravindavk/gluster-log-colorize/compare/0.1.1...HEAD
 [0.1.1]: https://github.com/aravindavk/gluster-log-colorize/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/aravindavk/gluster-log-colorize/releases/tag/0.1.0
